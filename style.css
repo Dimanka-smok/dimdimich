@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Comfortaa";
+}
+
+.menu{
+    background-color: #1d1d1d;
+    opacity: 0.9;
+    text-align: center;
+    padding:15px;
+    position: fixed;
+    width:100%;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:#dbdbdb;
+    padding:50px;
+    transition: 0.22s;
+}
+
+.menu a:hover{
+    color:white;
+}
+
+.head{
+    background-image:url(1.jpg);
+    text-align: center;
+    background-size: cover;
+    color:white;
+    padding:250px 0;
+    border-bottom-left-radius:140px;
+    border-bottom-right-radius:140px;
+    background-attachment: fixed;
+}
+
+.head p{
+    margin-top:20px;
+    font-size:18.7px;
+}
+
+.bez{
+    display: none;
+    
+}
+
+.poiv:hover + .bez{
+    display: block;
+}
+
+.poiv:hover{
+    color: rgba(0,0,0,0.0);
+    transition:0.6s;
+}
+.head button{
+    border-radius:20px;
+    border:none;
+    outline: none;
+    background-color: black;
+    color:white;
+    padding:10px 20px;
+    margin-top:20px;
+    font-size:15px;
+    transition:0.15s;
+}
+
+.head button:hover{
+    cursor: pointer;
+    background-color: white ;
+    color:black;
+    font-weight: bolder;
+    font-size: 15px;
+    padding:10px 35px;
+    text-decoration:underline;
+}
+
+.zaglav{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.company p{
+    text-align: justify;
+    width:85%;
+    margin:auto;
+    font-size:18.7px;
+}
+
+.box{
+    background-color:#1d1d1d;
+    opacity: 1;
+    color:white;
+    width:20%;
+    text-align: justify;
+    padding:25px 30px 15px 30px;
+    border-radius:25px;
+}
+
+.box h2{
+    text-align: center;
+    margin-bottom:15px;
+}
+
+.box img{
+    width:100%;
+    border-radius:20px;
+    margin-top:25px;
+}
+
+.tovar{
+    display: flex;
+    justify-content:space-evenly;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #efe5fd 100%);
+}
+
+.zaglav2{
+    text-align: center;
+    margin-top:25px;
+    padding:30px 0 30px 0;
+    background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+}
+
+.fiol{
+    background-image:url(6.jpg);
+    text-align: center;
+    background-size: cover;
+    padding:300px 0 220px 0;
+    background-position-x:0px;
+    background-repeat: no-repeat;
+}
+
+.fiol button{
+    margin:20px 10px 0px 10px;
+    padding:10px 15px;
+    border:none;
+    outline: none;
+    border-radius:20px;
+    transition:0.15s;
+    margin-top:50px;
+}
+
+.fiol button:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    padding:10px 30px;
+}
+
+.naz{
+    text-align: center;
+    background-color:#efe5fd ;
+    padding-bottom:40px;
+}
+
+.text{
+    text-align: justify;
+    width:95%;
+    margin:auto;
+    font-size:18.7px;
+}
+
+.iphone12{
+    text-align: justify;
+    width:90%;
+    margin:auto;
+    font-size:18.7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.char{
+    width:25%;
+    padding:15px 40px 15px 40px;
+    margin-top:50px;
+    transition:0.1s;
+    border-radius:30px;
+}
+
+.char:hover{
+    background-color: #a49cd5;
+}
+
+
+.ch1{
+    width:25%;
+    padding:15px 40px 15px 40px;
+    margin-top:50px;
+    transition:0.1s;
+    border-radius:30px;
+    height:180px;
+}
+
+.ch1:hover{
+    background-color: #a49cd5;
+}
+
+.ch1 h3{
+    text-align: center;
+}
+
+.ch1 p{
+    margin-top:20px;    
+}
+
+
+.ch2{
+    width:25%;
+    padding:15px 40px 15px 40px;
+    margin-top:50px;
+    transition:0.1s;
+    border-radius:30px;
+    height:160px;
+}
+
+.ch2:hover{
+    background-color: #a49cd5;
+}
+
+.ch2 h3{
+    text-align: center;
+}
+
+.ch2 p{
+    margin-top:20px;    
+}
+
+
+.ch3{
+    width:25%;
+    padding:15px 40px 15px 40px;
+    margin-top:50px;
+    transition:0.1s;
+    border-radius:30px;
+    height:120px;
+}
+
+.ch3:hover{
+    background-color: #a49cd5;
+}
+
+.ch3 h3{
+    text-align: center;
+}
+
+.ch3 p{
+    margin-top:20px;    
+}
+
+.char h3{
+    text-align: center;
+}
+
+.char p{
+    margin-top:20px;
+}
+
+
+.vse1{
+
+    background-color:#efe5fd ;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 375px){
+
+    .menu{
+        position: static;
+    }
+}
